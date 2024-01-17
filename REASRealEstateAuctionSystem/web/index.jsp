@@ -29,11 +29,6 @@
                     <div id="navbarBasicExample" class="navbar-menu">
                         <div style="padding-left: 30%;" class="navbar-start">
                            
-
-                            <a style="color: #fff;" class="navbar-item">
-                                VỀ CHÚNG TÔI
-                            </a>
-                            
                             <a style="color: #fff;" class="navbar-item">
                                 NỘI QUY
                             </a>
