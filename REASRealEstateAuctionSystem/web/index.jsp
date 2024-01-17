@@ -28,9 +28,7 @@
 
                     <div id="navbarBasicExample" class="navbar-menu">
                         <div style="padding-left: 30%;" class="navbar-start">
-                            <a style="color: #fff;" class="navbar-item">
-                                TRANG CHỦ
-                            </a>
+                           
 
                             <a style="color: #fff;" class="navbar-item">
                                 VỀ CHÚNG TÔI
