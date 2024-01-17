@@ -14,56 +14,54 @@
     </head>
     <body>
         <nav style="background-color: black;" class="navbar" role="navigation" aria-label="main navigation">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="https://bulma.io">
-                            <img style="max-height: 65px;" class="logo-header" src="image/logo.png" href="" width="112" height="28" />
-                        </a>
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img style="max-height: 65px;" class="logo-header" src="image/logo.png" href="" width="112" height="28" />
+                </a>
 
-                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                            <span aria-hidden="true"></span>
-                        </a>
-                    </div>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
 
-                    <div id="navbarBasicExample" class="navbar-menu">
-                        <div style="padding-left: 30%;" class="navbar-start">
-                            <a style="color: #fff;" class="navbar-item">
-                                TRANG CHỦ
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div style="padding-left: 30%;" class="navbar-start">
+          
+
+                    <a style="color: #fff;" class="navbar-item">
+                        VỀ CHÚNG TÔI
+                    </a>
+
+                    <a style="color: #fff;" class="navbar-item">
+                        NỘI QUY
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons" >
+                            <a style="color: #D9AB73;background-color: #000;margin-right: 0px" class="button is-light">
+                                <strong>ĐĂNG NHẬP</strong>
                             </a>
-
-                            <a style="color: #fff;" class="navbar-item">
-                                VỀ CHÚNG TÔI
-                            </a>
-                            
-                            <a style="color: #fff;" class="navbar-item">
-                                NỘI QUY
+                            <a style="color: #D9AB73;background-color: #000;" class="button is-light">
+                                <strong>ĐĂNG KÝ</strong>
                             </a>
                         </div>
-
-                        <div class="navbar-end">
-                            <div class="navbar-item">
-                                <div class="buttons" >
-                                    <a style="color: #D9AB73;background-color: #000;margin-right: 0px" class="button is-light">
-                                        <strong>ĐĂNG NHẬP</strong>
-                                    </a>
-                                    <a style="color: #D9AB73;background-color: #000;" class="button is-light">
-                                    <strong>ĐĂNG KÝ</strong>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </nav>
-        
+                </div>
+            </div>
+        </nav>
+
         <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-    </p>
-  </div>
-</footer>
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
