@@ -11,12 +11,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css" >
     </head>
     <body>
-        <nav style="background-color: black;" class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://bulma.io">
-                    <img style="max-height: 65px;" class="logo-header" src="image/logo.png" href="" width="112" height="28" />
+                    <img class="logo-header" src="image/logo.png" href="" width="100" height="28" />
                 </a>
 
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -27,16 +28,16 @@
             </div>
 
             <div id="navbarBasicExample" class="navbar-menu">
-                <div style="padding-left: 30%;" class="navbar-start">
-                    <a style="color: #fff;" class="navbar-item">
+                <div class="navbar-start">
+                    <a class="navbar-item">
                         TRANG CHỦ
                     </a>
 
-                    <a style="color: #fff;" class="navbar-item">
+                    <a class="navbar-item">
                         VỀ CHÚNG TÔI
                     </a>
 
-                    <a style="color: #fff;" class="navbar-item">
+                    <a class="navbar-item">
                         NỘI QUY
                     </a>
                 </div>
@@ -44,10 +45,10 @@
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons" >
-                            <a style="color: #D9AB73;background-color: #000;margin-right: 0px" class="button is-light">
+                            <a class="button is-light">
                                 <strong>ĐĂNG NHẬP</strong>
                             </a>
-                            <a style="color: #D9AB73;background-color: #000;" class="button is-light">
+                            <a class="button is-light">
                                 <strong>ĐĂNG KÝ</strong>
                             </a>
                         </div>
@@ -56,13 +57,7 @@
             </div>
         </nav>
 
-        <footer style="background-color: #000;position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: #000;
-                color: white;
-                text-align: center; ">
+        <footer class="footer"> 
             <div class="content has-text-centered">
                 <p>
                     <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
